@@ -1,5 +1,6 @@
 import { About } from "@/components/about/About";
 import { FAQ } from "@/components/faq/FAQ";
+import { Footer } from "@/components/footer/Footer";
 import { Gallery } from "@/components/gallery/Gallery";
 import { Hero } from "@/components/hero/Hero";
 import { Menu } from "@/components/menu/Menu";
@@ -12,7 +13,6 @@ export default function Home() {
   return (
     <>
       <Navbar />
-
       <main>
         <Hero />
         <About />
@@ -23,6 +23,7 @@ export default function Home() {
         <Reservation />
         <FAQ />
       </main>
+      <Footer />
     </>
   );
 }
