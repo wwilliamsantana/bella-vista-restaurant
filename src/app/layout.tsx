@@ -14,7 +14,7 @@ const playfair = Playfair_Display({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://bellavista.vercel.app"),
+  metadataBase: new URL("https://bella-vista-restaurant-iota.vercel.app"),
   title: {
     default: "Bella Vista | Authentic Italian Restaurant",
     template: "%s | Bella Vista",
@@ -41,7 +41,7 @@ export const metadata: Metadata = {
     title: "Bella Vista",
     description:
       "Authentic Italian dining experience with handcrafted cuisine.",
-    url: "https://bellavista.vercel.app",
+    url: "https://bella-vista-restaurant-iota.vercel.app",
     siteName: "Bella Vista",
     locale: "en_US",
     type: "website",
@@ -59,7 +59,7 @@ export const metadata: Metadata = {
     follow: true,
   },
   alternates: {
-    canonical: "https://bellavista.vercel.app",
+    canonical: "https://bella-vista-restaurant-iota.vercel.app",
   },
   verification: {
     google: "...", // Google Indexing
@@ -86,7 +86,12 @@ export default function RootLayout({
               "@context": "https://schema.org",
               "@type": "Restaurant",
               name: "Bella Vista",
+              url: "https://bella-vista-restaurant-iota.vercel.app",
+              description:
+                "Authentic Italian dining experience with handcrafted Italian cuisine.",
               servesCuisine: "Italian",
+              image:
+                "https://bella-vista-restaurant-iota.vercel.app/og-image.jpg",
               telephone: "+1 555-123-4567",
               address: {
                 "@type": "PostalAddress",

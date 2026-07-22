@@ -3,7 +3,7 @@ import { MetadataRoute } from "next";
 export default function sitemap(): MetadataRoute.Sitemap {
   return [
     {
-      url: "https://bellavista.vercel.app",
+      url: "https://bella-vista-restaurant-iota.vercel.app",
       lastModified: new Date(),
       priority: 1,
     },

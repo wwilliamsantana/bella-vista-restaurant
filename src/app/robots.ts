@@ -7,6 +7,6 @@ export default function robots(): MetadataRoute.Robots {
       allow: "/",
     },
 
-    sitemap: "https://bellavista.vercel.app/sitemap.xml",
+    sitemap: "https://bella-vista-restaurant-iota.vercel.app/sitemap.xml",
   };
 }
