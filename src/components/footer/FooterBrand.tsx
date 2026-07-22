@@ -6,14 +6,17 @@ import Link from "next/link";
 
 const socials = [
   {
+    name: "instagram",
     icon: "/socials/instagram.png",
     href: "#",
   },
   {
+    name: "facebook",
     icon: "/socials/facebook.png",
     href: "#",
   },
   {
+    name: "X",
     icon: "/socials/x.png",
     href: "#",
   },
@@ -35,13 +38,19 @@ export function FooterBrand() {
       </p>
 
       <div className="mt-6 flex gap-4">
-        {socials.map(({ icon: Icon, href }) => (
+        {socials.map(({ name, icon: Icon, href }) => (
           <Link
-            key={href}
+            key={name}
             href={href}
             className="rounded-full border border-white/10 p-3 transition hover:border-[#7A1F1F] hover:text-white"
+            aria-label={name}
           >
-            <Image src={Icon} alt="Social Media" width={18} height={18} />
+            <Image
+              src={Icon}
+              alt={"Social media" + name}
+              width={18}
+              height={18}
+            />
           </Link>
         ))}
       </div>

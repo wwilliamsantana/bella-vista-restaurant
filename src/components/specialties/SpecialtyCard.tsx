@@ -35,7 +35,7 @@ export function SpecialtyCard({
       <div className="relative overflow-hidden">
         <Image
           src={image}
-          alt={title}
+          alt={description}
           width={1200}
           height={800}
           className="h-72 w-full object-cover transition duration-700 group-hover:scale-110"
