@@ -1,36 +1,203 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+![Next.js](https://img.shields.io/badge/Next.js-15-black)
+![React](https://img.shields.io/badge/React-19-61DAFB)
+![TypeScript](https://img.shields.io/badge/TypeScript-5-3178C6)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind-v4-38BDF8)
+![License](https://img.shields.io/badge/License-MIT-green)
 
-## Getting Started
+# 🍷 Bella Vista
 
-First, run the development server:
+A modern and elegant restaurant landing page built with **Next.js 15**, **React 19**, **TypeScript**, **Tailwind CSS**, and **Framer Motion**.
+
+Bella Vista was designed as a premium Italian restaurant website, focusing on smooth animations, responsive design, accessibility, and SEO best practices.
+
+---
+
+## Preview
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/afbd047c-45a8-46d3-aba7-cbae8a788666" alt="Bella Vista Preview">
+</p>
+
+
+**Live Demo:** https://bella-vista-restaurant-iota.vercel.app/
+
+---
+
+# Features
+
+- Responsive design
+- Smooth scroll navigation
+- Sticky Navbar
+- Mobile navigation menu
+- Hero section
+- About section
+- Chef's Specialties
+- Restaurant Menu
+- Gallery
+- Customer Testimonials
+- Reservation Form
+- FAQ Accordion
+- Newsletter
+- Footer
+- Scroll animations using Framer Motion
+- Optimized images with Next.js Image
+- SEO Metadata
+- Open Graph support
+- Twitter Card
+- Sitemap
+- Robots.txt
+- JSON-LD (Restaurant Schema)
+- Accessible components
+
+---
+
+# Tech Stack
+
+- Next.js 15
+- React 19
+- TypeScript
+- Tailwind CSS v4
+- Framer Motion
+- Lucide React
+- Next/Image
+- Next Font (Geist + Playfair Display)
+
+---
+
+# 🚀 Getting Started
+
+Clone the repository
+
+```bash
+git clone https://github.com/wwilliamsantana/bella-vista-restaurant.git
+```
+
+Go to the project folder
+
+```bash
+cd bella-vista-restaurant
+```
+
+Install dependencies
+
+```bash
+npm install
+```
+
+Run the development server
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```
+http://localhost:3000
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+# Responsive Design
 
-To learn more about Next.js, take a look at the following resources:
+The project was designed for:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- Mobile
+- Tablet
+- Laptop
+- Desktop
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+---
 
-## Deploy on Vercel
+#  Performance
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+The application follows several optimization practices:
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- Next.js Image Optimization
+- Lazy Loading
+- Optimized Fonts
+- SEO Metadata
+- Open Graph
+- JSON-LD
+- Sitemap
+- Robots.txt
+
+---
+
+#  Accessibility
+
+Accessibility improvements include:
+
+- Semantic HTML
+- Accessible buttons
+- aria-label on icon-only buttons
+- aria-expanded on FAQ accordion
+- Focus-visible states
+- Descriptive image alt texts
+
+---
+
+# Screenshots
+
+## Hero
+
+<img src="https://github.com/user-attachments/assets/2179f20b-ba36-470d-9df7-ff8f026ab476" alt="Hero">
+
+---
+
+## Menu
+
+<img src="https://github.com/user-attachments/assets/62eb8f63-a72f-47eb-a6c4-1a32dd6ebc65" alt="Menu">
+
+---
+
+## Gallery
+
+<img src="https://github.com/user-attachments/assets/f1dc34f4-f4e8-413d-ba2a-287b494d4588" alt="Gallery">
+
+---
+
+## Reservation
+
+<img src="https://github.com/user-attachments/assets/3dc07074-1f23-410d-8dda-fd7543336f93" alt="Reservation">
+
+---
+
+# SEO
+
+Implemented SEO best practices:
+
+- Metadata API
+- Open Graph
+- Robots
+- Sitemap
+- Canonical URL
+- Structured Data (JSON-LD)
+- Optimized metadata
+
+---
+
+# Lighthouse Goals
+
+- ✅ Performance
+- ✅ Accessibility
+- ✅ Best Practices
+- ✅ SEO
+
+---
+
+# 📄 License
+
+This project was created for educational and portfolio purposes.
+
+---
+
+# Author
+
+William Santana
+
+GitHub:
+https://github.com/wwilliamsantana
+
+LinkedIn:
+https://linkedin.com/in/wwilliamsantana
