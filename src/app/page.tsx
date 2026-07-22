@@ -1,4 +1,5 @@
 import { About } from "@/components/about/About";
+import { FAQ } from "@/components/faq/FAQ";
 import { Gallery } from "@/components/gallery/Gallery";
 import { Hero } from "@/components/hero/Hero";
 import { Menu } from "@/components/menu/Menu";
@@ -20,6 +21,7 @@ export default function Home() {
         <Gallery />
         <Testimonials />
         <Reservation />
+        <FAQ />
       </main>
     </>
   );
